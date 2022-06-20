@@ -1,1 +1,1 @@
-﻿var kros = new Company.Company();
+﻿var kros = new Company.Company("Kros a.s.");
