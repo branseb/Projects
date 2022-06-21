@@ -10,9 +10,20 @@ namespace Company
     {
         public readonly string Name;
 
-        public Company(string name)
+        public readonly List<Employee> Employees;
+
+        public  Company(string name)
         {
             Name = name;
+            Employees = new List<Employee>();
         }
+
+        public void AddEmployee(Employee employee)
+        {
+            Employees.Add(employee);
+        }
+
+        
+
     }
 }
