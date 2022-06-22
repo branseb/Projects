@@ -2,12 +2,12 @@
 
 namespace Company
 {
-    public class Employee
+    public abstract class Employee
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+        public readonly int Id;
+        public readonly string Name;
 
-        public DateOnly StartDate { get; set; }
+        public DateOnly StartDate { get;private set; }
 
         public int Rate { get; set; }
 
