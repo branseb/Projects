@@ -13,11 +13,14 @@ namespace Company
 
         public Employee(int id, string name, DateOnly startdate, int rate)
         {
+			if (rate < 0) {
+				throw new ArgumentException("Rate cannot be negative");
+			}
+
             Id = id;
             Name = name;
             StartDate = startdate;
             Rate = rate;
-
         }
 
         public virtual string GetInfo()
