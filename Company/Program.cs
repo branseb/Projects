@@ -1,6 +1,14 @@
 ﻿using Company;
+using Logging;
 var kros = new Company.Company("Blaznec s.r.o.");
 var counter = 0;
+var consolelogger = new ConsoleLogger();
+var filelogger = new FileLogger("./log.txt");
+
+var loggeradapter = new LoggerAdapter();
+loggeradapter.AddLogger(consolelogger);
+loggeradapter.AddLogger(filelogger);
+
 
 kros.AddEmployee(new Company.Teacher(counter++, "Jozef", new DateOnly(1, 1, 1), 1000));
 
@@ -59,7 +67,7 @@ while (true)
 	} 
 	catch (Exception e) 
 	{
-		Console.WriteLine(e.Message);
+		loggeradapter.Log(e);
 	}
 	finally
 	{
