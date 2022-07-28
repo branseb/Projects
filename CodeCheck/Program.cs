@@ -81,6 +81,8 @@ while (true)
         Console.WriteLine(e); }
 }
 */
+Console.BackgroundColor=ConsoleColor.DarkBlue;
+
 while (true)
 {
 
