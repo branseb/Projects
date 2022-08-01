@@ -1,6 +1,6 @@
 ﻿namespace BinaryTree
 {
-    public class Node<T, K> //where K : IComparable    
+    public class Node<T, K> where K : IComparable    
     {
         public readonly T Data;
         public readonly K Key;
