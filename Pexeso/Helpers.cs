@@ -36,13 +36,14 @@ namespace Pexeso
 
             bool xbool = int.TryParse(xstring, out x);
             bool ybool = int.TryParse(ystring, out y);
-
+            x = x - 1;
+            y = y - 1;
             return ((x * y) % 2 == 0 && xbool && ybool);
 
         }
-        public static bool GetCoordinate(string coordinateXY, char [,] cards,out int x, out int y)
+        public static bool GetCoordinate(string coordinateXY, char[,] cards, out int x, out int y)
         {
-          
+
             bool xbool = int.TryParse(coordinateXY[0].ToString(), out x);
             bool ybool = int.TryParse(coordinateXY[1].ToString(), out y);
             if (coordinateXY.Length != 2 || !xbool || !ybool)
@@ -53,8 +54,8 @@ namespace Pexeso
             var xOk = 0 < x && x <= cards.GetLength(0);
             var yOk = y > 0 && y <= cards.GetLength(1);
 
-            
-            if (!xOk || !yOk || cards [x,y] == ' ')
+
+            if (!xOk || !yOk || cards[x, y] == ' ')
             {
                 return false;
             }
@@ -68,11 +69,11 @@ namespace Pexeso
             {
                 for (int j = 0; j < cards.GetLength(1); j++)
                 {
-                    if ((i == card1x-1 && j == card1y-1)||(i == card2x-1 && j == card2y-1))
+                    if ((i == card1x - 1 && j == card1y - 1) || (i == card2x - 1 && j == card2y - 1))
                     {
-                        graphic.Append(cards[i,j]+"|");
+                        graphic.Append(cards[i, j] + "|");
                     }
-                    else if (cards[i,j] == ' ')
+                    else if (cards[i, j] == ' ')
                     {
                         graphic.Append(" |");
                     }
