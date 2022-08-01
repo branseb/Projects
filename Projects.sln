@@ -19,7 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tic-Tac_Toe", "Tic-Tac_Toe\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pexeso", "Pexeso\Pexeso.csproj", "{7F581C78-79FE-4901-932B-D70533145AA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{95CA647D-D24C-45B5-A41A-DE8D2EE4CE8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions", "Extensions\Extensions.csproj", "{95CA647D-D24C-45B5-A41A-DE8D2EE4CE8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{F2E0554B-2B3B-4DB1-A660-F41A86AE5F6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hladanie značiek", "hladanie značiek\hladanie značiek.csproj", "{F1649687-B105-4AC4-8D76-D78A48AD06E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResidentsDatabase", "ResidentsDatabase\ResidentsDatabase.csproj", "{C49A90F1-9130-44E9-A13F-9C0D4BFB4375}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{95CA647D-D24C-45B5-A41A-DE8D2EE4CE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95CA647D-D24C-45B5-A41A-DE8D2EE4CE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95CA647D-D24C-45B5-A41A-DE8D2EE4CE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E0554B-2B3B-4DB1-A660-F41A86AE5F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E0554B-2B3B-4DB1-A660-F41A86AE5F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E0554B-2B3B-4DB1-A660-F41A86AE5F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E0554B-2B3B-4DB1-A660-F41A86AE5F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1649687-B105-4AC4-8D76-D78A48AD06E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1649687-B105-4AC4-8D76-D78A48AD06E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1649687-B105-4AC4-8D76-D78A48AD06E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1649687-B105-4AC4-8D76-D78A48AD06E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49A90F1-9130-44E9-A13F-9C0D4BFB4375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49A90F1-9130-44E9-A13F-9C0D4BFB4375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49A90F1-9130-44E9-A13F-9C0D4BFB4375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49A90F1-9130-44E9-A13F-9C0D4BFB4375}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
