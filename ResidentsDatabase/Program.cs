@@ -8,7 +8,7 @@ var lastID = "";
 for (int i = 0; i < 10000; i++)
 {
     var id = Guid.NewGuid().ToString().Split('-')[0];
-    var resident = new Resident("Name", new DateOnly(), id);
+    var resident = new Resident("Name", new DateOnly(DateTime.Now.Year,DateTime.Now.Month,DateTime.Now.Day), id);
 
     try
     {
