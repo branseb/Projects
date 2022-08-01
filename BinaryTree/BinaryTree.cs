@@ -2,7 +2,7 @@
 {
     public class BinaryTree<T, K> where K : IComparable
     {
-        public Node<T, K> Root { get; set; }
+        private Node<T, K> Root { get; set; }
 
         public void Add(K key, T data)
         {
