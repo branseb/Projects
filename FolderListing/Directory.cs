@@ -15,7 +15,7 @@ namespace FolderListing
             var directories = System.IO.Directory.GetDirectories(folder);
             foreach (var d in directories)
             {
-                Console.WriteLine(" ".multyply(level * 4) + d);
+                Console.WriteLine(" ".Multyply(level * 4) + d);
                 RenderFolders(level + 1, d);
             }
         }

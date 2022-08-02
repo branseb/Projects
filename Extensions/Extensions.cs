@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Extensions
+﻿namespace Extensions
 {
     public static class Extensions
     {
-        public static string multyply(this string text, int times)
+        public static string Multyply(this string text, int times)
         {
             string result = string.Empty;
             for (int i = 0; i < times; i++)

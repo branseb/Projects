@@ -2,7 +2,7 @@
 using Extensions;
 
 var text = "ab";
-text = text.multyply(4);
+text = text.Multyply(4);
 text.Log();
 bool bool1 = false;
 bool bool2 = bool1.Neg();
