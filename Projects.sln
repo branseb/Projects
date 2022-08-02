@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "BinaryTree\Bi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hladanie značiek", "hladanie značiek\hladanie značiek.csproj", "{F1649687-B105-4AC4-8D76-D78A48AD06E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResidentsDatabase", "ResidentsDatabase\ResidentsDatabase.csproj", "{C49A90F1-9130-44E9-A13F-9C0D4BFB4375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResidentsDatabase", "ResidentsDatabase\ResidentsDatabase.csproj", "{C49A90F1-9130-44E9-A13F-9C0D4BFB4375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderListing", "FolderListing\FolderListing.csproj", "{46373E0D-B28D-44C1-B3EE-6536F3F0D744}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{C49A90F1-9130-44E9-A13F-9C0D4BFB4375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C49A90F1-9130-44E9-A13F-9C0D4BFB4375}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C49A90F1-9130-44E9-A13F-9C0D4BFB4375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46373E0D-B28D-44C1-B3EE-6536F3F0D744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46373E0D-B28D-44C1-B3EE-6536F3F0D744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46373E0D-B28D-44C1-B3EE-6536F3F0D744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46373E0D-B28D-44C1-B3EE-6536F3F0D744}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
