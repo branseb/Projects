@@ -1,5 +1,4 @@
-﻿using System;
-var generator = new Random(0);
+﻿var generator = new Random(0);
 var generatory = new Random(1);
 
 List<(double, double,bool)> points = new List<(double, double, bool)>();

@@ -6,7 +6,6 @@
 
         public void Add(K key, T data)
         {
-
             if (Root == null)
             {
                 Root = new Node<T, K>(key, data);
@@ -36,7 +35,7 @@
                     {
                         if (node.Right == null)
                         {
-                            var x = new Node<T,K>(key, data);
+                            var x = new Node<T, K>(key, data);
                             node.Right = x;
                             break;
                         }
@@ -48,7 +47,7 @@
                     }
                     else
                     {
-                        throw new Exception("Car whit this licenceplace exist!"); 
+                        throw new Exception("Car whit this licenceplace exist!");
                         break;
                     }
 
@@ -61,14 +60,14 @@
         {
             if (Root == null)
             {
-                 return default;
+                return default;
             }
             else
             {
                 var node = Root;
                 while (true)
                 {
-                    if (node.Key.CompareTo(key)> 0)//ide do lava
+                    if (node.Key.CompareTo(key) > 0)//ide do lava
                     {
                         if (node.Left != null)
                         {
