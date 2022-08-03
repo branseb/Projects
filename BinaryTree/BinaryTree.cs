@@ -1,6 +1,5 @@
 ﻿namespace BinaryTree
 {
-    // toto je triea binarnyu strom
     public class BinaryTree<T, K> where K : IComparable
     {
         private Node<T, K> Root { get; set; }
